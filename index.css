@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: beige;
+}
+
+/*----- HERO -----*/
+.hero {
+  height: 100vh;
+}
+
+.logo i {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.heroName {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600 !important;
+  text-align: center;
+}
+
+.heroCaption p {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
