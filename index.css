@@ -5,6 +5,7 @@
 }
 a {
   text-decoration: none;
+  color: #000;
 }
 
 body {
@@ -34,4 +35,18 @@ body {
 
 .cardImg img {
   width: 100%;
+  height: 300px;
+}
+
+/* .card {
+  -moz-box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  -webkit-box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+} */
+
+/* MODAL */
+
+.modalLinks {
+  margin-left: auto;
+  margin-right: auto;
 }
