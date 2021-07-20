@@ -50,3 +50,18 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Contact */
+
+.contact {
+  width: 100vw;
+  background-color: #c3d3c8;
+}
+
+.email {
+  font-weight: 500;
+}
+
+.email:hover {
+  background-color: #9a9a9a;
+}
