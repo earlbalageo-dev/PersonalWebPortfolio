@@ -4,7 +4,7 @@ const odd = document.querySelector('body');
 const even = document.querySelectorAll('.even');
 const card = document.querySelectorAll('.card');
 const darkButtonOutline = document.querySelector('.darkRadio');
-
+const socials = document.querySelectorAll('.socials');
 darkButton.onclick = () => {
   odd.classList.add('darkOdd');
   darkButtonOutline.classList.remove('btn-outline-dark');
@@ -17,6 +17,9 @@ darkButton.onclick = () => {
   for (let item of card) {
     item.classList.remove('lightCard');
     item.classList.add('darkCard');
+  }
+  for (let item of socials) {
+    item.classList.add('socialsDark');
   }
 };
 
@@ -32,5 +35,9 @@ lightButton.onclick = () => {
   for (let item of card) {
     item.classList.remove('darkCard');
     item.classList.add('lightCard');
+  }
+
+  for (let item of socials) {
+    item.classList.remove('socialsDark');
   }
 };

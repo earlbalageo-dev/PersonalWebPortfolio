@@ -42,10 +42,19 @@ body {
 }
 
 /* MODAL */
-
+.modal-title {
+  color: white;
+}
+.modal-content {
+  background-color: #34343c;
+  color: white;
+}
 .modalLinks {
   margin-left: auto;
   margin-right: auto;
+}
+.close {
+  color: white;
 }
 
 /* Contact */
@@ -89,4 +98,8 @@ body {
 
 .darkCard {
   background-color: #363b3f;
+}
+
+.socialsDark {
+  color: white;
 }
