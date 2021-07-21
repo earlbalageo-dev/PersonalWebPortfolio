@@ -5,6 +5,7 @@
 }
 a {
   text-decoration: none;
+  color: #000;
 }
 
 body {
@@ -23,6 +24,10 @@ body {
 /* ABOUT */
 .about {
   width: 100vw;
+}
+.aboutContext {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* PROJECTS */
